@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html,
+body {
+    font-size: 1.15rem; /*change*/
+    color: rgba(51, 51, 51, 0.74); /*change*/
+    font-family: "Orbitron",sans-serif;
+    line-height: 1.6;
+    font-weight: 500; 
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+* {
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+}
+  
