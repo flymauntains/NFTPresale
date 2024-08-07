@@ -14,13 +14,7 @@ const WalletConnectButton = () => {
             {({account, chain, openAccountModal, openChainModal, openConnectModal, authenticationStatus, mounted }) => {
                 const ready = mounted && authenticationStatus !== 'loading';
                 const connected = ready && account && chain && (!authenticationStatus || authenticationStatus === 'authenticated');
-                console.log("WalletConnectButton mounted:", mounted);
-                console.log("WalletConnectButton authenticationStatus:", authenticationStatus);
-                console.log("WalletConnectButton account:", account);
-                console.log("WalletConnectButton chain:", chain);
-                console.log("WalletConnectButton ready:", ready);
-                console.log("WalletConnectButton connected:", connected);
-
+                
                 if (!connected) {
                     return (
                         <StyledButton action={openConnectModal} >

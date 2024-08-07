@@ -24,11 +24,11 @@ const Introduction = () => {
   return (
       <div className="w-full flex flex-col justify-items-start h-fit z-50">
           <div className="p-6 pt-0">
-              <PageHeader pageTitle="$SOB TOKEN PRESALEs" />
+              <PageHeader pageTitle="$SOB TOKEN PRESALE" />
               <div className="lg:text-xl text-sm text-white font-normal lg:w-7/12 ">
                   The SOB Token is a gateway to the new SOB world. It integrates with all products, serving as a tool to accelerate processes. For more information, read the GitBook.
               </div>
-              <GradientButton name="GITBOOK" />
+              <GradientButton name="GITBOOK"  style={{ width: '13rem' }}/>
               <div className="w-full flex mt-3 justify-between lg:pr-28">
                   {SocialItems.map((social, index) => {
                       return (
@@ -48,7 +48,7 @@ const Introduction = () => {
 
 //   return (
 //     <div className="w-full flex flex-col items-center h-fit z-50 p-4 bg-[url('/images/buy_background.png')] bg-cover bg-center">
-//       <div className="w-full max-w-[1200px] flex flex-col items-center p-6 pt-0">
+//       <div className="w-full max-w-[1200px] flex flex-col items-center p-6 pt-0">S
 //         <PageHeader pageTitle="$SOB TOKEN PRESALEs" />
 //         <div className="text-lg lg:text-xl text-white font-normal lg:w-7/12 text-center lg:text-left mb-4">
 //           The SOB Token is a gateway to the new SOB world. It integrates with

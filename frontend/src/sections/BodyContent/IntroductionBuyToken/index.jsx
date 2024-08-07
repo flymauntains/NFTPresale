@@ -29,7 +29,7 @@ const IntroductionBuyToken = () => {
                 <div className="lg:text-xl text-sm text-white font-normal lg:w-7/12 ">
                     The SOB Token is a gateway to the new SOB world. It integrates with all products, serving as a tool to accelerate processes. For more information, read the GitBook.
                 </div>
-                <GradientButton name="GITBOOK" />
+                <GradientButton name="GITBOOK" style={{ width: '13rem' }}/>
                 <div className="w-full flex mt-3 justify-between lg:pr-28">
                     {SocialItems.map((social, index) => {
                         return (

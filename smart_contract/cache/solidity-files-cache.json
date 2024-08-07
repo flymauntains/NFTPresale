@@ -2,8 +2,8 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "F:\\soldity\\GitHub\\NFTPresale\\smart_contract\\contracts\\NFTPresale.sol": {
-      "lastModificationDate": 1721872403313,
-      "contentHash": "cf37bbb2a73378f0ca6898fd9fe8653b",
+      "lastModificationDate": 1722297326464,
+      "contentHash": "77ae064e618ad13b12b32bdeac7ce1c4",
       "sourceName": "contracts/NFTPresale.sol",
       "solcConfig": {
         "version": "0.8.20",

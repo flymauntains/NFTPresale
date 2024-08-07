@@ -201,7 +201,7 @@ const Contribute = () => {
           const hash11 =  await writeContract(config, {
             // account: address,
             abi: PresaleABI,
-            address: "0x7dca35fb77185E00E3a8b120A10F96290F3F6305",
+            address: "0x4F91aeDE07E943DB5D914ABfecc6E8489b60cC4f",
             functionName: 'mintPresale',
             args: [5],
             value: 1000000000000000,
@@ -425,8 +425,8 @@ const Contribute = () => {
             <label className="cursor-pointer">max</label>
           </div>
         </div>
-        {/* <GradientButton name="Buy1" onClick={handleBuyBtn} /> */}
-        <GradientButton name="Buy1" onClick={() => handleBuyBtn()} />
+        {/* <GradientButton name="Buy" onClick={handleBuyBtn} /> */}
+        <GradientButton name="Buy" onClick={() => handleBuyBtn()} />
       </div>
     </div>
   );

@@ -14,7 +14,6 @@ export default function ContributePage() {
     <Fragment>
       <SEO title="$SOB" />
       <Layout>
-        <h1>BUY TOKEN</h1>
         <div className="h-full w-screen">
           <div className="fixed flex lg:flex-row flex-col">
             <img className="lg:w-1/2 h-[1800px] border-r border-solid border-[#FF56F6]" src={LeftBackground.src} alt="LeftBackground" />

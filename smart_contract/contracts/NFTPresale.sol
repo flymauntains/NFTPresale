@@ -79,6 +79,7 @@ contract NFTPresale is ERC721, Ownable {
             _tokenIdCounter.increment();
             _safeMint(msg.sender, tokenId);
             presaleSupply++;
+            presaleMinted[msg.sender]++;
             emit PresaleMint(msg.sender, tokenId);
         }
     }
